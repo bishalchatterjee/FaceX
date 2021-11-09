@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "666702804753",
+    "project_id": "facex-bb0de",
+    "storage_bucket": "facex-bb0de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666702804753:android:b519706160e2e279aefeb0",
+        "android_client_info": {
+          "package_name": "com.bishal.facex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666702804753-0ssspko7lh0gfoig8437l5b4l3apqido.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5T76rrkhMGEY98rddo8t7kra3RhiIRBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666702804753-0ssspko7lh0gfoig8437l5b4l3apqido.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

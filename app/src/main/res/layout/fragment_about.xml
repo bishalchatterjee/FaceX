@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:textAlignment="center"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:fontFamily="@font/audiowide"
+        android:text="    about  the  developer"
+        android:textAllCaps="true"
+        android:textColor="#FF9292"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="509dp"
+        android:src="@drawable/myimage" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="453dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Hello User,"
+        android:textColor="@color/purple_500"
+        android:textIsSelectable="false"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="201dp"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="453dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Hello User,"
+        android:textColor="@color/purple_500"
+        android:textIsSelectable="false"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="480dp"
+        android:fontFamily="@font/audiowide"
+        android:text="                   I'm Bishal Chatterjee, a first year B.Tech(CSE) student at Lovely Professional University,I would like to express my gratitude to you for using my app.I will keep implementing new features and fix all possible bugs in near future,  a feedback on the issues that you may have been facing ,would be a great help for me to work upon!"
+        android:textColor="@color/purple_200"
+        android:textIsSelectable="false"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="633dp"
+        android:fontFamily="@font/audiowide"
+        android:text="Thanks."
+        android:textColor="@color/purple_500"
+        android:textIsSelectable="false"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
